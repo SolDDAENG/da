@@ -14,6 +14,8 @@ f2 = lambda :tf.constant(2)
 a = tf.constant(3)
 b = tf.constant(4)
 
+# 안녕하세요 저는 최한솔입니다.
+
 result2 = tf.case([(tf.less(a, b), f1)], default=f2)
 print(result2.numpy())
 
